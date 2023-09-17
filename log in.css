@@ -1,0 +1,122 @@
+body{
+    height: 700px;
+}
+nav{
+    background: rgb(15, 99, 125);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    height: 500px;
+}
+
+.login-container h1 {
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.login-container form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.login-container form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container form button {
+    padding: 10px 20px;
+    background-color: rgb(15, 99, 125);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container form button:hover {
+    background-color: rgb(82, 150, 171);
+}
+
+.login-container p {
+    margin-top: 15px;
+    color: #666;
+}
+
+.login-container a {
+    color: rgb(49, 49, 161);
+    text-decoration: none;
+
+}
+.footer {
+    background-color:rgb(15, 99, 125);;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
